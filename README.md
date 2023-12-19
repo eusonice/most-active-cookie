@@ -11,11 +11,14 @@ SAZuXPGUrfbcn5UA,2018-12-08T22:03:00+00:00
 fbcn5UAVanZf6UtG,2018-12-08T09:30:00+00:00
 4sMM2LxV07bPJzwf,2018-12-07T23:30:00+00:00
 ```
-This program processes the log file and returns the most active cookie for the specified day.
+This program processes the log file (.csv) and returns the most active cookie for the specified day.
 
 ## Example
 Running the following command:
 `python most_active_cookie.py cookie_log.csv -d 2018-12-09`
 Outputs:
 `AtY0laUfhglK3lC7`
+
+To run the test:
+`python -m unittest test_most_active_cookie.py`
 
